@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+    font-family: Nunito, sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+}
+
+.form-control {
+    display: block;
+    height: 35px;
+    font-size: 14px;
+    width: 100%;
+    line-height: 35px;
+    padding: 0 10px;
+    border: solid 1px #cccccc !important;
+    border-radius: 2px !important;
+    outline: none !important;
+}
+
+.form-control:active,
+.form-control:active,
+.form-control:focus,
+.form-control:focus {
+    border-color: #3676C8 !important;
+}
+
+.element-label {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.5em;
+}
+
+.payment-form {
+    padding: 20px;
+    border: solid 1px #eaeaea;
+    border-radius: 4px;
+    background: #fbfbfb;
+    margin-top: 50px;
+}
+
+.paystack-color-bar {
+    height: 2px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to right, #44b669 0%, #09a5db 100%);
+    background: -webkit-linear-gradient(to right, #44b669 0%, #09a5db 100%);
+    background: -webkit-gradient(to right, #44b669 0%, #09a5db 100%);
+}
+
+.paystack-container .paystack-page .header .page-description {
+    margin: 20px 0 0;
+    padding: 0 15px;
+}
+
+.page-description {
+    font-size: 14px;
+}
+
+.paystack-footer {
+    width: 300px;
+    max-width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 40px auto;
+    text-align: center;
+    opacity: .7;
+    clear: both;
+}
+
+.paystack-footer img {
+    width: 200px;
+}
+
+#total {
+    font-size: 15px;
+}
+
+.popup-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+
+.popup-message.success {
+    background-color: rgba(40, 167, 69, 0.8);
+}
+
+.popup-message.error {
+    background-color: rgba(220, 53, 69, 0.8);
+}
